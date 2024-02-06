@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap')
 
 @function box-shadow-stars($n)
-  $star-shadows: '#{random(2000)}px #{random(2000)}px #ffffff'
+  $star-shadows: '#{random(4096)}px #{random(2160)}px #ffffff'
   @for $i from 2 through $n
-    $star-shadows: '#{$star-shadows}, #{random(2000)}px #{random(2000)}px #ffffff'
+    $star-shadows: '#{$star-shadows}, #{random(4096)}px #{random(2160)}px #ffffff'
   @return unquote($star-shadows)
   
-$stars1-shadows: box-shadow-stars(2500)
-$stars2-shadows: box-shadow-stars(250)
-$stars3-shadows: box-shadow-stars(100)
+$stars1-shadows: box-shadow-stars(5000)
+$stars2-shadows: box-shadow-stars(500)
+$stars3-shadows: box-shadow-stars(250)
 
 
 html
   height: 100vh
   overflow: hidden
   background: #000000
-  background: linear-gradient(90deg, #000000, #1b2735, #000000)
+  background: radial-gradient(ellipse at bottom, #333366, black)
 
 body
   color: white
@@ -29,7 +29,7 @@ img
   background: transparent
   box-shadow: $stars1-shadows
   border-radius: 50%
-  animation: scroll-stars 240s linear infinite
+  animation: scroll-stars 300s linear infinite
   &:after
     content: " "
     position: absolute
@@ -63,7 +63,7 @@ img
   background: transparent
   box-shadow: $stars3-shadows
   border-radius: 50%
-  animation: scroll-stars 60s linear infinite
+  animation: scroll-stars 90s linear infinite
   &:after
     content: " "
     position: absolute
