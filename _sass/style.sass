@@ -101,8 +101,8 @@ $stars3-shadows: box-shadow-stars(1250)
   height: 2000px
   z-index: 2
 
-@for $p from 0 through 6
-  $x: calc((6 - $p) / 2)
+@for $p from 0 through 2
+  $x: calc((2 - $p) / 2)
   .parallax__layer__#{$p}
      transform: translateZ(-100 * $x+px) scale($x + 1)
 
@@ -110,17 +110,19 @@ html
   height: 100vh
   overflow: hidden
   background: #000000
-  background: radial-gradient(ellipse at bottom, #333366, black)
+  background: radial-gradient(ellipse at bottom, #666699, black)
 
 body
   color: white
+  margin: auto
+  max-width: 2048px
 
 img
   filter: invert
 
 .title
   font-family: 'Days One', sans-serif
-  font-size: xx-large
+  font-size: xxx-large
   text-align: center
   width: 100%
 
