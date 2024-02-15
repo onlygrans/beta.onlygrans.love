@@ -17,7 +17,7 @@ $stars3-shadows: box-shadow-stars(1250)
   background: transparent
   box-shadow: $stars1-shadows
   border-radius: 50%
-  animation: scroll-stars 90s linear infinite
+  animation: scroll-stars 300s linear infinite
   overflow-anchor: none
   &:after
     content: " "
@@ -36,7 +36,7 @@ $stars3-shadows: box-shadow-stars(1250)
   background: transparent
   box-shadow: $stars2-shadows
   border-radius: 50%
-  animation: scroll-stars 120s linear infinite
+  animation: scroll-stars 180s linear infinite
   overflow-anchor: none
   &:after
     content: " "
@@ -55,7 +55,7 @@ $stars3-shadows: box-shadow-stars(1250)
   background: transparent
   box-shadow: $stars3-shadows
   border-radius: 50%
-  animation: scroll-stars 300s linear infinite
+  animation: scroll-stars 120s linear infinite
   overflow-anchor: none
   &:after
     content: " "
@@ -113,7 +113,7 @@ $stars3-shadows: box-shadow-stars(1250)
      transform: translateZ(-100 * $x+px) scale($x + 1)
 
 html
-  height: 100vh
+  height: 100vh !important
   overflow: hidden
   background: #000000
   background: radial-gradient(ellipse at bottom, #666699, black)
