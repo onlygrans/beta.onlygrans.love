@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
 
 @function box-shadow-stars($n)
   $star-shadows: '#{random(4096)}px #{random(2160)}px #ffffff'
@@ -10,6 +10,8 @@ $stars1-shadows: box-shadow-stars(5000)
 $stars2-shadows: box-shadow-stars(2500)
 $stars3-shadows: box-shadow-stars(1250)
 
+.stars
+  zindex: 1
 
 .stars1
   width: 1px
@@ -74,6 +76,24 @@ $stars3-shadows: box-shadow-stars(1250)
   to
     transform: translateY(-2160px)
 
+
+.expanse
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100vh
+  width: 100vw
+
+.expanse span
+  color: #000000
+  filter: drop-shadow(0 0 1rem #9999aa)
+  font-family: "Montserrat", sans-serif
+  font-optical-sizing: auto
+  font-weight: 900
+  font-style: normal
+  font-size: calc(18px + 15vw)
+  z-index: 2
+
 .parallax
   perspective: 100px
   height: 100vh
@@ -104,8 +124,7 @@ $stars3-shadows: box-shadow-stars(1250)
   top: 100%
   left: 0
   right: 0
-  height: 2000px
-  z-index: 2
+  height: 200px
 
 @for $p from 0 through 2
   $x: calc((2 - $p) / 2)
@@ -131,3 +150,5 @@ img
   text-align: center
   width: 100%
 
+.content
+  margin: 100% auto auto 0

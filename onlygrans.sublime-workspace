@@ -1,0 +1,289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"larg",
+				"xx-large"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"fig",
+				"figcaption"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"cancel",
+				"Build: Cancel"
+			],
+			[
+				"c",
+				"Build: Cancel"
+			],
+			[
+				"can",
+				"Build: Cancel"
+			],
+			[
+				"cance",
+				"Build: Cancel"
+			],
+			[
+				"build",
+				"Build: Cancel"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jrmyr/Projects/beta.onlygrans.love",
+		"/Users/jrmyr/Projects/beta.onlygrans.love/_includes",
+		"/Users/jrmyr/Projects/beta.onlygrans.love/_sass",
+		"/Users/jrmyr/Projects/beta.onlygrans.love/assets"
+	],
+	"file_history":
+	[
+		"/Users/jrmyr/Projects/beta.onlygrans.love/_sass/style.sass",
+		"/Users/jrmyr/Projects/beta.onlygrans.love/index.njk",
+		"/Users/jrmyr/Projects/beta.onlygrans.love/_includes/base.njk",
+		"/Users/jrmyr/Projects/beta.onlygrans.love/stars/index.njk",
+		"/Users/jrmyr/Projects/onlygrans.love/_sass/style.sass",
+		"/Users/jrmyr/Projects/onlygrans.love/index.njk",
+		"/Users/jrmyr/Projects/onlygrans.love/.eleventy.js",
+		"/Users/jrmyr/Projects/onlygrans.love/_site/index.html",
+		"/Users/jrmyr/Projects/onlygrans.love/package.json",
+		"/Users/jrmyr/Projects/onlygrans.love/_sass/style",
+		"/Users/jrmyr/Projects/onlygrans.love/src/_includes/base.njk",
+		"/Users/jrmyr/Projects/onlygrans.love/src/css/style.scss",
+		"/Users/jrmyr/Projects/onlygrans.love/assets/css/main.css",
+		"/Users/jrmyr/Projects/onlygrans.love/_sass/main.scss",
+		"/Users/jrmyr/Projects/onlygrans.love/_layouts/default.html",
+		"/Users/jrmyr/Projects/onlygrans.love/_includes/footer.html",
+		"/Users/jrmyr/Projects/onlygrans.love/_includes/header.html",
+		"/Users/jrmyr/Projects/onlygrans.love/index.html",
+		"/Users/jrmyr/Projects/onlygrans.love/_config.yml",
+		"/Users/jrmyr/Documents/Projects/Hexbright Firmware/hexbright-jrmyr.ino",
+		"/Users/jrmyr/Projects/DAD/dad.js",
+		"/Users/jrmyr/IO/io.py",
+		"/Users/jrmyr/Projects/SCIO/scio-draft.txt",
+		"/C/Users/jerem/Desktop/Courier/courier.py",
+		"/C/Users/jerem/Desktop/Courier/.env",
+		"/c/users/jerem/appdata/local/temp/raspberry-8z_rew/courier.py",
+		"/c/users/jerem/appdata/local/temp/raspberry-pt5gqg/courier.py",
+		"/?wsl$/Debian/home/jrm/courier/courier.py",
+		"//wsl$/Debian/home/jrm/courier/.env",
+		"//wsl$/Debian/home/jrm/courier/courier.env",
+		"/C/Users/jerem/Desktop/test.html",
+		"/C/Users/jerem/iCloudDrive/Obsidian/Vault 0x4A/obsidian.css",
+		"//wsl$/Debian/home/jrm/publi.sh/publi.sh",
+		"/C/Users/jerem/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json",
+		"/C/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.2.2381.0_x64__8wekyb3d8bbwe/defaults.json",
+		"/C/Users/jerem/iCloudDrive/Obsidian/0x4A/obsidian.css",
+		"/C/Users/jerem/iCloudDrive/Projects/Publi.sh/publish.sublime-project",
+		"/C/Users/jerem/iCloudDrive/Projects/Publi.sh/sftp-config.json",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 125.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 464.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 127.0
+	},
+	"pinned_build_system": "",
+	"project": "onlygrans.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
